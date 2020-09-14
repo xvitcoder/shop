@@ -1,0 +1,34 @@
+# Find all suppliers
+GET {{hostname}}/api/suppliers
+
+###
+
+# Find supplier by id
+GET {{hostname}}/api/suppliers/{{supplierId}}
+
+###
+
+# Create supplier
+POST {{hostname}}/api/suppliers
+Content-Type: application/json
+
+{
+  "name": "supplier1",
+  "supplierNumber": "12345"
+}
+
+###
+
+# Update supplier
+PUT {{hostname}}/api/suppliers/{{supplierId}}
+Content-Type: application/json
+
+{
+  "name": "supplier1",
+  "supplierNumber": "54321"
+}
+
+###
+
+# Delete supplier
+DELETE {{hostname}}/api/suppliers/{{supplierId}}

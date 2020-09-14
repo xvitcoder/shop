@@ -1,6 +1,4 @@
-create schema if not exists app;
-
-create table app.supplier (
+create table supplier (
     id serial primary key,
     name varchar(32) not null,
     supplier_number varchar(32) not null,

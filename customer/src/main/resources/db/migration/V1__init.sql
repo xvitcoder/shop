@@ -1,4 +1,4 @@
-create table app.customer (
+create table customer (
     id serial primary key,
     name varchar(32) not null,
     customer_number varchar(32) not null,

@@ -13,7 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "customer", schema = "app")
+@Table(name = "customer", schema = "customer")
 public class Customer implements Serializable {
 
     @Id

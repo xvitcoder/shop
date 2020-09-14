@@ -2,6 +2,7 @@ package com.xvitcoder.shop.supplier.web.controller;
 
 import com.xvitcoder.shop.supplier.core.SupplierService;
 import com.xvitcoder.shop.supplier.core.domain.Supplier;
+import com.xvitcoder.shop.supplier.core.repository.SupplierRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
