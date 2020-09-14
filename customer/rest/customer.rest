@@ -1,0 +1,34 @@
+# Find all customers
+GET {{hostname}}/api/customers
+
+###
+
+# Find customer by id
+GET {{hostname}}/api/customers/{{customerId}}
+
+###
+
+# Create customer
+POST {{hostname}}/api/customers
+Content-Type: application/json
+
+{
+  "name": "Dell",
+  "customerNumber": "4343535323"
+}
+
+###
+
+# Update customer
+PUT {{hostname}}/api/customers/{{customerId}}
+Content-Type: application/json
+
+{
+  "name": "Dell",
+  "customerNumber": "554642"
+}
+
+###
+
+# Delete customer
+DELETE {{hostname}}/api/customers/{{customerId}}
